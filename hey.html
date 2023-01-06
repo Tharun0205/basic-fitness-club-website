@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+	Fitness freak
+	</title> <meta name="theme-color" content="#ffffff">
+		<style >
+		input[type=text] {
+			background: transparent;
+			border: 1;
+			border-color: grey;
+			border-radius: 25px;
+		}
+		input[type=select] {
+			background: transparent;
+			border: 1;
+			border-color: lightgrey;
+			border-radius: 25px;
+		}
+
+
+	</style>
+	<link rel="shortcut icon" type="image/png" href="D:\fitness.png"> 
+	<h1 style="text-align: center;">fitness club</h1>
+    <div style="text-align:center;"><u>fill the form</u></div>
+</head>
+<body  background="D:\hello123.webp" >
+	<div style="text-align: center;">
+    <form>
+    	<label>Firstname<input type="text" name="firstname" placeholder="firstname" required>
+
+    	  </label><br><br>
+    	 <label>Lastname<input type="text" name="lastname" placeholder="lastname" required>
+    	  </label><br><br>
+    	 <label>Male<input type="radio" name="gender" value="male">
+    	 	</label>
+    	 <label>Female<input type="radio" name="gender" value="female">
+    	 	</label><br><br>
+         <label>Email id<input type="text" name="emailid" placeholder="enter your email id" required>
+          </label><br><br>
+         <label>Password<input type="text" name="password" placeholder="enter your password" pattern="{5,10}" required title="please enter your password from 5 to 10 characters"><br><br>
+         	
+         </label>  
+         <label for="">Date of birth</label>
+         <select id="birthday" name="month">
+         	<option>jan</option>
+         	<option>feb</option>
+         	<option>mar</option>
+         	<option>apr</option>
+         	<option>may</option>
+         	<option>jun</option>
+         	<option>jul</option>
+         	<option>aug</option>
+         	<option>sep</option>
+         	<option>oct</option>
+         	<option>nov</option>
+         	<option>dec</option>
+
+
+
+
+         </select>          
+         <select id="birthday" name="day">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+         </select>
+
+
+        <select id="year" name="date of birth">
+        	<option>1999</option>
+        	<option>2000</option>
+        	<option>2001</option>
+        	<option>2002</option>
+        	<option>2003</option>
+        	<option>2004</option>
+        	<option>2005</option>
+        	
+
+        </select>
+        <br><br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+
+
+         <button onclick="myFunction()">submit</button>
+
+	<script>
+	function myFunction() {
+  	alert("your response has been recorded");
+	}
+	</script>
+
+
+
+
+
+    </form>
+	</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
